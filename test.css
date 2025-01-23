@@ -1,0 +1,376 @@
+html{
+    font-size: 16px;
+}
+@media screen and (max-width= 700px) {
+    body{
+
+    }
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.stranica1{
+    height: 100vh;
+    width: 100vw;
+}
+.navigacija{
+    background-color: red;
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+*{
+    margin: 0;
+}
+.navigacija{
+    display: flex;
+    align-items: center;
+}
+.navigacija_broj_telefona{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.navigacija_broj_telefona p{
+    font-size: 1.2rem;;
+    color: white;
+}
+.navigacija_ikonice{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.navigacija_ikonice img{
+    height: 2rem;
+    width: 2rem;
+}
+.navigacija2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-bottom: 1px solid black;
+}
+.navigacija2_slika img{
+    height: 4rem;
+    width: 7rem;
+}
+.linkovi{
+    display: flex;
+    height: 100%;
+}
+.link{
+    display: flex;
+    align-items: center;
+    width: 7rem;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: red;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fiksirano{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+.glavni_dio_1{
+    height: 100%;
+    width: 100%;
+    margin-top: -5rem;
+}
+.velika_slika{
+    height: 93%;
+    width: 100%;
+    margin-top: 10%;
+}
+.velika_slika img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.text_preko{
+    position: absolute;
+    transform: translateY(-35rem);
+    left: 5rem;
+}
+.text_preko p{
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stranica2{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    gap: 5rem;
+}
+.lijevo{
+    height: 70%;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    margin-left: 4rem;
+    justify-content: center;
+}
+.uber_uns{
+    color: darkred;
+    margin-bottom: 2rem;
+}
+.paragraf{
+    color: darkred;
+    font-size: 1.3rem;
+}
+.dugme button{
+    height: 3rem;
+    background-color: darkred;
+    border: none;
+    color: white;
+    width: 6rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+.desno{
+    width: 67%;
+    height: 70%;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+}
+.gradjevinac{
+    height: 80%;
+    width: 90%;
+}
+.gradjevinac img{
+    height: 100%;
+    width: 100%;
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stranica3{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+.naslovcic{
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+
+}
+.lijeva_linija,
+.desna_linija{
+    height: 2px;
+    width: 50%;
+    background-color:red
+}
+
+.projekti{
+    color:red;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.linijice{
+    display: none;
+}
+.gornji{
+    height: 50%;
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+.hajde{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hajde img{
+    width: 100%;
+    height: 100%;
+}
+.hajde p{
+    color:red;
+    text-align: center;
+}
+.donji{
+    height: 50%;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stranica4{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 7rem;
+}
+.drugi_naslov{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.drugi_naslov1 p{
+    color: red;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.linija1{
+    height: 0.2rem;
+    width: 15%;
+    background-color: red;
+}
+.treci_naslov{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.treci_naslov1 p{
+    color: red;
+    font-size: 1.4rem;
+}
+.tri_kartice{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.kartica{
+    width: 30%;
+    height: 90%;
+    border: 1px solid red;
+    box-shadow: 2px 4px 6px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slicica{
+    width: 60%;
+    height:50%;
+    margin-top: -3rem;
+}
+.slicica img{
+    height: 100%;
+    width: 100%;
+}
+.mali_naslov{
+    width: 95%;
+    color:red;
+    margin-left: 1rem;
+}
+.mali_paragraf{
+    margin-top: 2rem;
+    color:grey;
+}
+.poslednje{
+    background-color: darkgray;
+    margin-top: -5rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.poslednje_srednje,
+.poslednje_lijevo,
+.poslednje_desno{
+    color:white;
+    line-height: 2rem;
+    margin-top: 2rem;
+
+}
+@media screen and (max-width: 700px){
+    .linkovi{
+        display: none;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .navigacija2{
+        height: 3rem;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10rem;
+    }
+    .navigacija2_slika{
+        height: 3rem;
+        width: 4rem;
+        margin-top: 0.5rem;
+    }
+    .navigacija2_slika img{
+        height: 80%;
+        width: 100%;
+    }
+    .glavni_dio_1{
+        height: 25rem;
+    }
+    .stranica1,
+    .stranica2,
+    .stranica3{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .linijice{
+        display: flex;
+    }
+    .stranica2{
+        width: 100%;
+    }
+    .text_preko{
+        position: absolute;
+        transform: translateY(-13rem);
+        left: 2rem;
+        z-index: 2;
+    }
+    .text_preko p{
+        color:white;
+        font-size: 1.7rem;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .lijevo{
+        width: 100%;
+        height: auto;
+        display: flex;
+        text-align: center;
+        margin-left: -0.5rem;
+    }
+    .desno{
+        width: 100%;
+        height: auto;
+    }
+    .navigacija_ikonice{
+        margin-right: 0.5rem;
+    }
+    .navigacija_broj_telefona{
+        margin-left: 0.5rem;
+    }
+    .stranica2{
+        margin-top: -5rem;
+    }
+    .desno{
+        display: flex;
+        justify-content: center;
+        margin-top: -2rem;
+    }
+}

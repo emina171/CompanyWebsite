@@ -1,4 +1,4 @@
-<h1>Company Websiten</h1>
+<h1>Company Website</h1>
 
 
 <h2>Languages and Utilities Used</h2>
